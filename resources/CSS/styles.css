@@ -115,4 +115,19 @@ nav a {
     background-size: cover;
     position: relative;
     top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.locations-title {
+    position: absolute;
+    top: 50px;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
 }
